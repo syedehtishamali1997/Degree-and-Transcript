@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "lastUpdated": "2026-11-21T12:54:33.438Z",
+  "settings": {
+    "campusName": "by Iqra University"
+  },
+  "students": [
+    {
+      "studentId": "IU04-STORE-001",
+      "name": "Alpha Student",
+      "program": "BSCS",
+      "status": "Pending"
+    },
+    {
+      "studentId": "IU04-STORE-002",
+      "name": "Beta Student",
+      "program": "BBA",
+      "status": "Case Ready"
+    }
+  ],
+  "history": [
+    {
+      "action": "Database Initialized",
+      "timestamp": "2026-11-21T12:54:33.438Z"
+    }
+  ],
+  "notifications": []
+}

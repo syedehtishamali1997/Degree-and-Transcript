@@ -1,0 +1,472 @@
+[
+  {
+    "id": "auth-audit-1795265682310-707de560",
+    "timestamp": "2026-11-21T12:54:42.310Z",
+    "action": "User Deleted",
+    "targetUserId": "usr-mwqeu1u7-19fcdf",
+    "targetUsername": "test_officer_1795265682136",
+    "targetRole": "admin_officer",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795265682295-46cfe70c",
+    "timestamp": "2026-11-21T12:54:42.295Z",
+    "action": "User Login",
+    "userId": "usr-mwqeu1u7-19fcdf",
+    "username": "test_officer_1795265682136",
+    "role": "admin_officer",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795265682250-7374430d",
+    "timestamp": "2026-11-21T12:54:42.250Z",
+    "action": "User Updated",
+    "targetUserId": "usr-mwqeu1u7-19fcdf",
+    "targetUsername": "test_officer_1795265682136",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795265682206-aeb9e4a4",
+    "timestamp": "2026-11-21T12:54:42.206Z",
+    "action": "User Login",
+    "userId": "usr-mwqeu1u7-19fcdf",
+    "username": "test_officer_1795265682136",
+    "role": "admin_officer",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795265682164-1c480a0e",
+    "timestamp": "2026-11-21T12:54:42.164Z",
+    "action": "User Created",
+    "targetUserId": "usr-mwqeu1u7-19fcdf",
+    "targetUsername": "test_officer_1795265682136",
+    "targetRole": "admin_officer",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795265682068-19233f7e",
+    "timestamp": "2026-11-21T12:54:42.068Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795265557789-ccc6486d",
+    "timestamp": "2026-11-21T12:52:37.789Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795265342250-5e29ecb7",
+    "timestamp": "2026-11-21T12:49:02.250Z",
+    "action": "User Deleted",
+    "targetUserId": "usr-mwqemrg8-5ac3f9",
+    "targetUsername": "test_officer_1795265342068",
+    "targetRole": "admin_officer",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795265342236-594780fb",
+    "timestamp": "2026-11-21T12:49:02.236Z",
+    "action": "User Login",
+    "userId": "usr-mwqemrg8-5ac3f9",
+    "username": "test_officer_1795265342068",
+    "role": "admin_officer",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795265342195-34075d7c",
+    "timestamp": "2026-11-21T12:49:02.195Z",
+    "action": "User Updated",
+    "targetUserId": "usr-mwqemrg8-5ac3f9",
+    "targetUsername": "test_officer_1795265342068",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795265342151-5f69bccb",
+    "timestamp": "2026-11-21T12:49:02.151Z",
+    "action": "User Login",
+    "userId": "usr-mwqemrg8-5ac3f9",
+    "username": "test_officer_1795265342068",
+    "role": "admin_officer",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795265342110-4f8b5848",
+    "timestamp": "2026-11-21T12:49:02.110Z",
+    "action": "User Created",
+    "targetUserId": "usr-mwqemrg8-5ac3f9",
+    "targetUsername": "test_officer_1795265342068",
+    "targetRole": "admin_officer",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795265342014-f09d17cf",
+    "timestamp": "2026-11-21T12:49:02.014Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795265217318-6b34cc42",
+    "timestamp": "2026-11-21T12:46:57.318Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795264045301-2538a6a1",
+    "timestamp": "2026-11-21T12:27:25.301Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795262912565-0e097a9f",
+    "timestamp": "2026-11-21T12:08:32.565Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795262423742-bf1f04b1",
+    "timestamp": "2026-11-21T12:00:23.742Z",
+    "action": "User Deleted",
+    "targetUserId": "usr-mwqcw7ik-335dd7",
+    "targetUsername": "test_officer_1795262423560",
+    "targetRole": "admin_officer",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795262423729-b76ab828",
+    "timestamp": "2026-11-21T12:00:23.729Z",
+    "action": "User Login",
+    "userId": "usr-mwqcw7ik-335dd7",
+    "username": "test_officer_1795262423560",
+    "role": "admin_officer",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795262423688-5f7d5486",
+    "timestamp": "2026-11-21T12:00:23.688Z",
+    "action": "User Updated",
+    "targetUserId": "usr-mwqcw7ik-335dd7",
+    "targetUsername": "test_officer_1795262423560",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795262423642-860af165",
+    "timestamp": "2026-11-21T12:00:23.642Z",
+    "action": "User Login",
+    "userId": "usr-mwqcw7ik-335dd7",
+    "username": "test_officer_1795262423560",
+    "role": "admin_officer",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795262423601-efcbf3d5",
+    "timestamp": "2026-11-21T12:00:23.601Z",
+    "action": "User Created",
+    "targetUserId": "usr-mwqcw7ik-335dd7",
+    "targetUsername": "test_officer_1795262423560",
+    "targetRole": "admin_officer",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795262423507-2056086e",
+    "timestamp": "2026-11-21T12:00:23.507Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795262299199-cb87cfa6",
+    "timestamp": "2026-11-21T11:58:19.199Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795262189223-88f560ff",
+    "timestamp": "2026-11-21T11:56:29.223Z",
+    "action": "User Deleted",
+    "targetUserId": "usr-mwqcr6k5-971d7a",
+    "targetUsername": "test_officer_1795262189044",
+    "targetRole": "admin_officer",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795262189207-bb1a5483",
+    "timestamp": "2026-11-21T11:56:29.207Z",
+    "action": "User Login",
+    "userId": "usr-mwqcr6k5-971d7a",
+    "username": "test_officer_1795262189044",
+    "role": "admin_officer",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795262189165-96fbcc71",
+    "timestamp": "2026-11-21T11:56:29.165Z",
+    "action": "User Updated",
+    "targetUserId": "usr-mwqcr6k5-971d7a",
+    "targetUsername": "test_officer_1795262189044",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795262189123-2dc2b067",
+    "timestamp": "2026-11-21T11:56:29.123Z",
+    "action": "User Login",
+    "userId": "usr-mwqcr6k5-971d7a",
+    "username": "test_officer_1795262189044",
+    "role": "admin_officer",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795262189082-f5526f1d",
+    "timestamp": "2026-11-21T11:56:29.082Z",
+    "action": "User Created",
+    "targetUserId": "usr-mwqcr6k5-971d7a",
+    "targetUsername": "test_officer_1795262189044",
+    "targetRole": "admin_officer",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795262188988-ae1c8b11",
+    "timestamp": "2026-11-21T11:56:28.988Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795262064295-420b7877",
+    "timestamp": "2026-11-21T11:54:24.295Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795261616649-73d85312",
+    "timestamp": "2026-11-21T11:46:56.649Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795261581799-b960dcde",
+    "timestamp": "2026-11-21T11:46:21.799Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795261456738-64e96eda",
+    "timestamp": "2026-11-21T11:44:16.738Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795261360221-7332cac7",
+    "timestamp": "2026-11-21T11:42:40.221Z",
+    "action": "User Deleted",
+    "targetUserId": "usr-mwqc9ewa-6a87bf",
+    "targetUsername": "test_officer_1795261360049",
+    "targetRole": "admin_officer",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795261360208-015fb8ce",
+    "timestamp": "2026-11-21T11:42:40.208Z",
+    "action": "User Login",
+    "userId": "usr-mwqc9ewa-6a87bf",
+    "username": "test_officer_1795261360049",
+    "role": "admin_officer",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795261360167-edf8271d",
+    "timestamp": "2026-11-21T11:42:40.167Z",
+    "action": "User Updated",
+    "targetUserId": "usr-mwqc9ewa-6a87bf",
+    "targetUsername": "test_officer_1795261360049",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795261360125-ce8c20f5",
+    "timestamp": "2026-11-21T11:42:40.125Z",
+    "action": "User Login",
+    "userId": "usr-mwqc9ewa-6a87bf",
+    "username": "test_officer_1795261360049",
+    "role": "admin_officer",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795261360084-efe7f42b",
+    "timestamp": "2026-11-21T11:42:40.084Z",
+    "action": "User Created",
+    "targetUserId": "usr-mwqc9ewa-6a87bf",
+    "targetUsername": "test_officer_1795261360049",
+    "targetRole": "admin_officer",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795261359987-b0c70ecb",
+    "timestamp": "2026-11-21T11:42:39.987Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795261344642-18a8bf9e",
+    "timestamp": "2026-11-21T11:42:24.642Z",
+    "action": "User Deleted",
+    "targetUserId": "usr-mwqc92v4-f16c5f",
+    "targetUsername": "test_officer_1795261344454",
+    "targetRole": "admin_officer",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795261344623-becf46be",
+    "timestamp": "2026-11-21T11:42:24.623Z",
+    "action": "User Login",
+    "userId": "usr-mwqc92v4-f16c5f",
+    "username": "test_officer_1795261344454",
+    "role": "admin_officer",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795261344581-7838ee91",
+    "timestamp": "2026-11-21T11:42:24.581Z",
+    "action": "User Updated",
+    "targetUserId": "usr-mwqc92v4-f16c5f",
+    "targetUsername": "test_officer_1795261344454",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795261344537-56cd59f3",
+    "timestamp": "2026-11-21T11:42:24.537Z",
+    "action": "User Login",
+    "userId": "usr-mwqc92v4-f16c5f",
+    "username": "test_officer_1795261344454",
+    "role": "admin_officer",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795261344495-075be1d1",
+    "timestamp": "2026-11-21T11:42:24.495Z",
+    "action": "User Created",
+    "targetUserId": "usr-mwqc92v4-f16c5f",
+    "targetUsername": "test_officer_1795261344454",
+    "targetRole": "admin_officer",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795261344387-9a9285d8",
+    "timestamp": "2026-11-21T11:42:24.388Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795261273231-76ef3767",
+    "timestamp": "2026-11-21T11:41:13.231Z",
+    "action": "User Deleted",
+    "targetUserId": "usr-mwqc7jrg-2bf47b",
+    "targetUsername": "test_officer_1795261273031",
+    "targetRole": "admin_officer",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795261273209-a65dc04b",
+    "timestamp": "2026-11-21T11:41:13.209Z",
+    "action": "User Login",
+    "userId": "usr-mwqc7jrg-2bf47b",
+    "username": "test_officer_1795261273031",
+    "role": "admin_officer",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795261273164-63d44f6d",
+    "timestamp": "2026-11-21T11:41:13.164Z",
+    "action": "User Updated",
+    "targetUserId": "usr-mwqc7jrg-2bf47b",
+    "targetUsername": "test_officer_1795261273031",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795261273117-d42d9b56",
+    "timestamp": "2026-11-21T11:41:13.117Z",
+    "action": "User Login",
+    "userId": "usr-mwqc7jrg-2bf47b",
+    "username": "test_officer_1795261273031",
+    "role": "admin_officer",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795261273073-130545f5",
+    "timestamp": "2026-11-21T11:41:13.073Z",
+    "action": "User Created",
+    "targetUserId": "usr-mwqc7jrg-2bf47b",
+    "targetUsername": "test_officer_1795261273031",
+    "targetRole": "admin_officer",
+    "performedBy": "admin"
+  },
+  {
+    "id": "auth-audit-1795261272972-e3094270",
+    "timestamp": "2026-11-21T11:41:12.973Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795260527760-38a0c604",
+    "timestamp": "2026-11-21T11:28:47.760Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  },
+  {
+    "id": "auth-audit-1795260400062-0f96dca9",
+    "timestamp": "2026-11-21T11:26:40.062Z",
+    "action": "User Login",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "status": "Success"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "usr-super-admin-001",
+    "fullName": "System Administrator",
+    "username": "admin",
+    "email": "admin@casetrack.iqra.edu.pk",
+    "passwordHash": "ce3c06f907870259fde9ce683b33ea01:07d8636477f80ff409cafcadb53e1ea9bd804c1e5630f15b4ba86fc20ed5299e52e6dd0a6ee2df78097ced3edfdbcdb6667cfe618c98ba1a63dc854a3b59a516",
+    "role": "super_admin",
+    "department": "Registrar Office",
+    "status": "active",
+    "createdAt": "2026-11-21T11:26:20.066Z",
+    "updatedAt": "2026-11-21T12:54:42.066Z",
+    "lastLogin": "2026-11-21T12:54:42.066Z",
+    "createdBy": "System Bootstrap"
+  },
+  {
+    "id": "usr-admin-officer-002",
+    "fullName": "Admin Officer",
+    "username": "officer",
+    "email": "officer@casetrack.iqra.edu.pk",
+    "passwordHash": "3662f2a2eb28771f4caba4fb1a7f3896:9bce57574e147285cc07882296a47e8e5923bdfef1a242c0d44c245ef213b707c4d3dc29890c70d93c5613cde3aa24c626e356b555a63f778f4587cce4ff7aed",
+    "role": "admin_officer",
+    "department": "Student Records Desk",
+    "status": "active",
+    "createdAt": "2026-11-21T11:26:20.104Z",
+    "updatedAt": "2026-11-21T11:26:20.104Z",
+    "lastLogin": null,
+    "createdBy": "System Bootstrap"
+  },
+  {
+    "id": "usr-registrar-desk-003",
+    "fullName": "Registrar Desk Officer",
+    "username": "registrar",
+    "email": "registrar@casetrack.iqra.edu.pk",
+    "passwordHash": "057d4b6e623fe649203e8a5c1b84459c:666794e8eb739c256db6c9b5f6b47c916edc5d087f3141ca4966ab5ae178604c18d51521007788bf0b7c184de975e174d01a3d0af45eb96cb6208264d6b4b690",
+    "role": "registrar_desk",
+    "department": "Registrar Office",
+    "status": "active",
+    "createdAt": "2026-11-21T11:26:20.138Z",
+    "updatedAt": "2026-11-21T11:26:20.138Z",
+    "lastLogin": null,
+    "createdBy": "System Bootstrap"
+  },
+  {
+    "id": "usr-viewer-004",
+    "fullName": "Academic Auditor (Viewer)",
+    "username": "viewer",
+    "email": "viewer@casetrack.iqra.edu.pk",
+    "passwordHash": "41b280322ce0e1f5fdbd5abc64fc440d:a919a2813e5cc53538f178efdbdf581f2661adaa7624ca0294604408bf47e618a82b170c8337f95ee6a094fe4866092cc1fa625fe11d722650d76f539f0a621a",
+    "role": "viewer",
+    "department": "Academic Affairs",
+    "status": "active",
+    "createdAt": "2026-11-21T11:26:20.173Z",
+    "updatedAt": "2026-11-21T11:26:20.173Z",
+    "lastLogin": null,
+    "createdBy": "System Bootstrap"
+  }
+]

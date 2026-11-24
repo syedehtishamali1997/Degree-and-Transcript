@@ -1,0 +1,77 @@
+@import "./GlobalTableLayout.css";
+
+/**
+ * PendingTable.css
+ * Page-scoped extensions for the Pending Cases table.
+ * Fully harmonized with GlobalTableLayout.css.
+ */
+
+.stage-table-pending {
+  width: 100% !important;
+}
+
+.stage-table-pending th.col-actions,
+.stage-table-pending td.col-actions {
+  width: 325px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.stage-table-pending .pending-actions-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.28rem;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+}
+
+.stage-table-pending .btn-edit-upload {
+  background-color: transparent;
+  border-color: var(--cui-primary, #321fdb);
+  color: var(--cui-primary, #321fdb);
+}
+
+.stage-table-pending .btn-edit-upload:hover {
+  background-color: var(--cui-primary, #321fdb);
+  color: #ffffff;
+}
+
+.stage-table-pending .btn-mark-ready {
+  background-color: var(--cui-primary, #321fdb);
+  border-color: var(--cui-primary, #321fdb);
+  color: #ffffff;
+}
+
+.stage-table-pending .btn-mark-ready:hover:not(:disabled) {
+  background-color: var(--cui-primary-hover, #2819af);
+  border-color: var(--cui-primary-hover, #2819af);
+}
+
+.stage-table-pending .pending-icon-group {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+.stage-table-pending .pending-icon-group .btn {
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.76rem;
+  border-radius: 0;
+  flex-shrink: 0;
+}
+
+.stage-table-pending .pending-icon-group .btn:first-child {
+  border-top-left-radius: var(--cui-border-radius-sm, 4px);
+  border-bottom-left-radius: var(--cui-border-radius-sm, 4px);
+}
+
+.stage-table-pending .pending-icon-group .btn:last-child {
+  border-top-right-radius: var(--cui-border-radius-sm, 4px);
+  border-bottom-right-radius: var(--cui-border-radius-sm, 4px);
+}

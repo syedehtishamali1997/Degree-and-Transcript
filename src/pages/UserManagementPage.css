@@ -1,0 +1,141 @@
+/**
+ * src/pages/UserManagementPage.css
+ * CoreUI 5 themed styles for User Management & Access Control
+ */
+
+.user-mgmt-page {
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.user-records-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.user-records-table th,
+.user-records-table td {
+  padding: 0.65rem 0.75rem;
+  vertical-align: middle;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.user-records-table thead th {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--cui-secondary-color, #6c757d);
+  background-color: var(--cui-tertiary-bg, #f8f9fa);
+  border-bottom: 2px solid var(--cui-border-color, #dee2e6);
+  white-space: nowrap;
+}
+
+[data-coreui-theme="dark"] .user-records-table thead th {
+  background-color: rgba(255, 255, 255, 0.04);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  color: #adb5bd;
+}
+
+.user-records-table tbody tr:hover {
+  background-color: var(--cui-table-hover-bg, rgba(0, 0, 0, 0.025));
+}
+
+[data-coreui-theme="dark"] .user-records-table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.user-records-table .btn-group .btn {
+  padding: 0.25rem 0.45rem;
+  font-size: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nav pills */
+.user-mgmt-page .nav-pills .nav-link {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--cui-body-color, #495057);
+  background-color: var(--cui-tertiary-bg, #f8f9fa);
+  border: 1px solid var(--cui-border-color, #e9ecef);
+  border-radius: 6px;
+  padding: 0.45rem 1rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.user-mgmt-page .nav-pills .nav-link:hover {
+  background-color: var(--cui-secondary-bg, #e9ecef);
+}
+
+.user-mgmt-page .nav-pills .nav-link.active {
+  background-color: var(--cui-primary, #321fdb);
+  color: #fff;
+  border-color: var(--cui-primary, #321fdb);
+  box-shadow: 0 2px 4px rgba(50, 31, 219, 0.25);
+}
+
+[data-coreui-theme="dark"] .user-mgmt-page .nav-pills .nav-link {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #dee2e6;
+}
+
+[data-coreui-theme="dark"] .user-mgmt-page .nav-pills .nav-link.active {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+  color: #ffffff;
+}
+
+/* Modal adjustments */
+.user-mgmt-page .modal {
+  z-index: 1060;
+}
+
+.user-mgmt-page .modal-dialog {
+  margin: 1.75rem auto;
+  max-width: 520px;
+}
+
+[data-coreui-theme="dark"] .modal-content {
+  background-color: #212631;
+  color: #f8f9fa;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+[data-coreui-theme="dark"] .modal-header,
+[data-coreui-theme="dark"] .modal-footer {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+[data-coreui-theme="dark"] .modal-footer.bg-body-tertiary {
+  background-color: #1a1e27 !important;
+}
+
+/* Metric card transitions */
+.user-mgmt-page .card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.user-mgmt-page .card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Responsive breakpoint adjustments */
+.user-records-table {
+  min-width: 980px;
+}

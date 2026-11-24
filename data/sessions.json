@@ -1,0 +1,155 @@
+[
+  {
+    "token": "ee8b861c05df4a6e4927ad678382bfe27ede0e1646579fbdff9187c6d2af6b61",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795260527760,
+    "expiresAt": 1795346927760,
+    "rememberMe": false
+  },
+  {
+    "token": "0fa350555cae22ec6b28400b2d9119fce3185832961f24458370e1ae4a14f41f",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795261272973,
+    "expiresAt": 1795347672973,
+    "rememberMe": false
+  },
+  {
+    "token": "c118afc0abdaeac29d3becc2f588d3d4410484ed44e5896acb24f5e6b06a7890",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795261344388,
+    "expiresAt": 1795347744388,
+    "rememberMe": false
+  },
+  {
+    "token": "27df9b60cc35d572db48e367d559ac9afbf52fbbbf8dcb63bbe34e0cf1a27054",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795261359987,
+    "expiresAt": 1795347759987,
+    "rememberMe": false
+  },
+  {
+    "token": "617a4165ad45b916ea395655ad08f656c5b082230ab7f105f5179931a564c0ec",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795261456738,
+    "expiresAt": 1797853456738,
+    "rememberMe": true
+  },
+  {
+    "token": "ca414d0b28675cbde980176278fcc86b6048170f0a4c4c8c8e664b6ed8db5f73",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795261581799,
+    "expiresAt": 1797853581799,
+    "rememberMe": true
+  },
+  {
+    "token": "4f685a51f09a1e7a962f522567aae3b6696361a9c051aeb8ac6ffddd7ef9a9f3",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795261616649,
+    "expiresAt": 1797853616649,
+    "rememberMe": true
+  },
+  {
+    "token": "868de6ec54c999c4d32741ea518c61117c621e102da78003fe9975272b19df56",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795262064296,
+    "expiresAt": 1797854064296,
+    "rememberMe": true
+  },
+  {
+    "token": "d8fac9e50c214044f6d70c7afc19e82bf0951be959357f34a21d6efcda5aff8b",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795262188988,
+    "expiresAt": 1795348588988,
+    "rememberMe": false
+  },
+  {
+    "token": "68aeeef901aa45dfa1af35fce229769aa287dac6ecbbe47561c41419d7897d1a",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795262299199,
+    "expiresAt": 1797854299199,
+    "rememberMe": true
+  },
+  {
+    "token": "61f1333829994a7d4bb650430e71fd8e4e3233a326be82ab4314685796c6cf98",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795262423508,
+    "expiresAt": 1795348823508,
+    "rememberMe": false
+  },
+  {
+    "token": "0eed3be4de3c4b287d532251b2495477cfd7d343788e42da5a22a7a0b2e9be46",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795262912565,
+    "expiresAt": 1797854912565,
+    "rememberMe": true
+  },
+  {
+    "token": "d9830dcb6eeb2581ae404c08ac739ba53465825f2cf71df3414e1b62e579e1ae",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795264045308,
+    "expiresAt": 1797856045308,
+    "rememberMe": true
+  },
+  {
+    "token": "15554de0203bd25b98e22301e169ab2f9d61552fb00a286a165481929fa13a57",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795265217318,
+    "expiresAt": 1797857217318,
+    "rememberMe": true
+  },
+  {
+    "token": "a7284c52e64265a7b918a078ee1dd846b6b9b6367834bdfdef7fcc7e7fab4c42",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795265342014,
+    "expiresAt": 1795351742014,
+    "rememberMe": false
+  },
+  {
+    "token": "1bd475c4499fb54497b0eb3b4c053e1a429dce01f831a88174e6d1c35d53d6ed",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795265557790,
+    "expiresAt": 1797857557790,
+    "rememberMe": true
+  },
+  {
+    "token": "8f702a297746719e9793fc37f6c4e64762d509a3aab235fa4f37ea82a25c20c6",
+    "userId": "usr-super-admin-001",
+    "username": "admin",
+    "role": "super_admin",
+    "createdAt": 1795265682069,
+    "expiresAt": 1795352082069,
+    "rememberMe": false
+  }
+]

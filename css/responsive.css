@@ -1,0 +1,202 @@
+/**
+ * CoreUI 5 Responsive Layout & Device Optimization
+ * CaseTrack Responsive Architecture across:
+ * - Large Desktop (>= 1440px)
+ * - Standard Desktop (1200px - 1439px)
+ * - Laptop / Small Desktop (992px - 1199px)
+ * - Tablet Landscape & Portrait (768px - 991px)
+ * - Large Mobile (576px - 767px)
+ * - Mobile & Small Mobile (320px - 575px)
+ */
+
+/* =========================================================================
+   1. LARGE DESKTOP (>= 1440px)
+   ========================================================================= */
+@media (min-width: 1440px) {
+  .sidebar-backdrop {
+    display: none !important;
+  }
+}
+
+/* =========================================================================
+   2. DESKTOP & LAPTOP (>= 992px)
+   ========================================================================= */
+@media (min-width: 992px) {
+  .sidebar-backdrop {
+    display: none !important;
+  }
+}
+
+/* =========================================================================
+   3. TABLET & SMALLER DEVICES (< 992px)
+   ========================================================================= */
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: var(--cui-sidebar-width) !important;
+    transform: translateX(-100%);
+    box-shadow: var(--cui-box-shadow-lg);
+    z-index: 1045;
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .sidebar-backdrop.show {
+    display: block;
+  }
+
+  .main-content {
+    margin-left: 0 !important;
+  }
+
+  .header-main-bar {
+    padding: 0 1rem;
+    min-height: 58px;
+  }
+
+  .content-body {
+    padding-top: 0.5rem;
+  }
+
+  .header-title {
+    font-size: 1rem;
+  }
+
+  .header-subtitle {
+    font-size: 0.72rem;
+    max-width: 280px;
+  }
+
+  .stat-card {
+    min-height: 130px;
+  }
+}
+
+/* =========================================================================
+   4. LARGE MOBILE & TABLET PORTRAIT (576px - 767.98px)
+   ========================================================================= */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header-subtitle {
+    display: none;
+  }
+}
+
+/* =========================================================================
+   5. MOBILE DEVICES (< 576px)
+   ========================================================================= */
+@media (max-width: 575.98px) {
+  .header-main-bar {
+    padding: 0 0.75rem;
+    min-height: 54px;
+  }
+
+  .header-title {
+    font-size: 0.95rem;
+  }
+
+  .header-subtitle {
+    display: none !important;
+  }
+
+  .header-left {
+    gap: 0.25rem;
+  }
+
+  .header-right {
+    gap: 0.35rem;
+  }
+
+  .btn-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 0.95rem;
+  }
+
+  .user-profile-btn {
+    padding: 0.15rem;
+  }
+
+  .avatar-wrapper,
+  .avatar-circle {
+    width: 30px;
+    height: 30px;
+    font-size: 0.75rem;
+  }
+
+  .stat-card {
+    padding: 0.85rem 0.75rem;
+    min-height: 120px;
+  }
+
+  .stat-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 1.05rem;
+  }
+
+  .stat-value {
+    font-size: 1.35rem;
+  }
+
+  .stat-label {
+    font-size: 0.72rem;
+  }
+
+  .notification-menu {
+    width: min(300px, calc(100vw - 20px)) !important;
+  }
+
+  .sticky-table-wrapper {
+    max-height: 65vh;
+  }
+
+  .student-records-table thead th,
+  .student-records-table tbody td {
+    padding: 0.55rem 0.45rem;
+    font-size: 0.78rem;
+  }
+
+  .btn-workflow {
+    font-size: 0.72rem;
+    padding: 0.25rem 0.45rem;
+  }
+
+  .stage-nav-link {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.65rem;
+  }
+
+  .footer {
+    padding: 0.75rem 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
+
+/* =========================================================================
+   6. SMALL MOBILE DEVICES (< 375px)
+   ========================================================================= */
+@media (max-width: 374.98px) {
+  .stat-card {
+    padding: 0.75rem 0.6rem;
+  }
+
+  .stat-value {
+    font-size: 1.25rem;
+  }
+
+  .stat-label {
+    font-size: 0.68rem;
+  }
+
+  .header-main-bar {
+    padding: 0 0.5rem;
+  }
+
+  .btn-icon {
+    width: 32px;
+    height: 32px;
+  }
+}
